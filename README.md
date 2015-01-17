@@ -1,2 +1,2 @@
 # organizer-command-line
-Organize your stufff
+Organize your stuff
