@@ -1,7 +1,7 @@
 #!/usr/bin/env
 # Import modules
 import sqlite3
-# Connect to a database called fillandsearch and create tables
+# Connect to a database and create tables
 db = sqlite3.connect('fillandsearch.sql')
 cur = db.cursor()
 cur.execute('''CREATE TABLE IF NOT EXISTS stuff (name TEXT, location TEXT, box TEXT)''')
